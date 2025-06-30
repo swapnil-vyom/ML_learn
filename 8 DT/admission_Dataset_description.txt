@@ -1,0 +1,34 @@
+An Admission Prediction Dataset typically contains information about students applying for admission to universities or academic programs, with features (variables) related to their academic performance, extracurricular activities, demographics, and other factors that may influence the admission decision. The dataset is often used for machine learning tasks such as predicting whether an applicant will be admitted or rejected based on various input features.
+
+Below is a general description of the features commonly found in an Admission Prediction Dataset:
+
+1. GRE Score
+Type: Numerical
+Description: The score obtained by the applicant in the Graduate Record Examination (GRE), a standardized test used for admissions in graduate schools.
+Range: Typically 260-340 (Higher scores indicate better performance).
+2. TOEFL Score
+Type: Numerical
+Description: The score obtained in the Test of English as a Foreign Language (TOEFL), which assesses the English language proficiency of non-native speakers.
+Range: Typically 60-120 (Higher scores indicate better English proficiency).
+3. University Rating
+Type: Ordinal (Categorical)
+Description: A rating given to the university or institution from which the applicant is applying. The rating could be on a scale from 1 to 5 or any other scale that reflects the university's overall reputation.
+Values: 1, 2, 3, 4, 5 (Higher values represent better-rated universities).
+4. SOP (Statement of Purpose) Strength
+Type: Ordinal (Categorical)
+Description: A score indicating the quality of the applicant's Statement of Purpose (SOP), which is a critical document in the admission process.
+Values: Typically rated on a scale from 1 to 5 (1 being weak and 5 being strong).
+5. LOR (Letter of Recommendation) Strength
+Type: Ordinal (Categorical)
+Description: A score or rating indicating the strength of the applicant's Letter of Recommendation (LOR).
+Values: Typically rated on a scale from 1 to 5 (1 being weak and 5 being strong).
+6. CGPA (Cumulative Grade Point Average)
+Type: Numerical
+Description: The applicant’s undergraduate CGPA or final grade point average. This is a measure of the applicant's academic performance during their undergraduate studies.
+Range: Typically between 0.0 and 10.0 (Higher CGPA indicates better academic performance).
+7. Research Experience
+Type: Binary (Categorical)
+Description: Whether the applicant has research experience or not. This is an important factor for many graduate programs.
+Values: 0 (No research experience) or 1 (Has research experience).
+8. Admission Decision (Target Variable)
+Type: Binary (Categorical)
